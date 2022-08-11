@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:gravity="center"
+	android:background="#FFFFFF">
+
+	<ImageView
+		android:layout_height="55dp"
+		android:layout_width="55dp"
+		android:id="@+id/musicservicelayoutImageViewIcon"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="vertical">
+
+		<TextView
+			android:layout_width="220dp"
+			android:layout_height="30dp"
+			android:textSize="16sp"
+			android:gravity="left|center"
+			android:textColor="#000000"
+			android:text="qq2323247730"
+			android:id="@+id/musicservicelayoutTextView1"
+			android:layout_marginLeft="5dp"/>
+
+		<TextView
+			android:layout_width="220dp"
+			android:layout_height="25dp"
+			android:gravity="top|left|center"
+			android:layout_marginLeft="5dp"
+			android:textColor="#5C5C5C"
+			android:id="@+id/musicservicelayoutTextView2"
+			android:textSize="13sp"/>
+
+	</LinearLayout>
+
+	<ImageView
+		android:layout_width="45dp"
+		android:layout_height="45dp"
+		android:id="@+id/musicservicelayoutImageViewButton2"
+		android:layout_marginRight="30dp"/>
+
+</LinearLayout>
+

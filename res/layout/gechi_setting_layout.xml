@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:gravity="left|center">
+
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+
+		<TextView
+			android:layout_height="35dp"
+			android:gravity="center"
+			android:text="歌词调整:"
+			android:layout_width="79dp"
+			android:textSize="17sp"/>
+
+		<Button
+			android:layout_height="33dp"
+			android:layout_width="60dp"
+			android:text="-0.1秒"
+			android:textColor="#17D6D8"
+			android:gravity="center"
+			android:layout_marginLeft="10dp"
+			android:onClick="addGechiProgress_buttom"
+			android:background="@drawable/button_find_music_bg"
+			android:textSize="12sp"/>
+
+		<Button
+			android:layout_height="35dp"
+			android:layout_width="80dp"
+			android:text="-0.1s"
+			android:textColor="#17D6D8"
+			android:gravity="center"
+			android:layout_marginLeft="10dp"
+			android:onClick="jianGechiProgress_buttom"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp">
+
+		<TextView
+			android:layout_height="35dp"
+			android:gravity="center"
+			android:text="移除歌词:"
+			android:layout_width="wrap_content"
+			android:textSize="17sp"/>
+
+		<Button
+			android:layout_height="37dp"
+			android:layout_width="50dp"
+			android:text="移除"
+			android:textColor="#E50C0C"
+			android:gravity="center"
+			android:layout_marginLeft="10dp"
+			android:id="@+id/gechisettinglayoutRemoveButton"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+		android:layout_height="30dp"
+		android:layout_width="130dp"
+		android:drawable="@color/cornsilk"
+        android:id="@+id/Music_item1"
+        android:title="歌单1"/>
+
+    <item
+		android:layout_height="30dp"
+		android:layout_width="130dp"
+		android:drawable="@color/floralwhite"
+        android:id="@+id/Music_item2"
+        android:title="歌单2"/>
+
+    <item
+		android:layout_height="30dp"
+		android:layout_width="130dp"
+		android:drawable="@color/cornsilk"
+        android:id="@+id/Music_item3"
+        android:title="歌单3"/>
+
+    <item
+		android:layout_height="30dp"
+		android:layout_width="130dp"
+		android:drawable="@color/floralwhite"
+        android:id="@+id/findMusic_item"
+        android:title="扫描音乐"/>
+	
+    <item
+		android:layout_height="30dp"
+		android:layout_width="130dp"
+		android:drawable="@color/cornsilk"
+        android:id="@+id/about_item"
+        android:title="关于"/>
+	
+</menu>

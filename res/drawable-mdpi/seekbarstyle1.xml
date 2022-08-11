@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--底色-->
+    <item android:id="@android:id/background">
+        <shape>
+            <solid android:color="@color/aliceblue" />
+        </shape>
+    </item>
+    <!--缓冲进度色-->
+    <item android:id="@android:id/secondaryProgress">
+        <clip>
+            <shape>
+                <solid android:color="@color/ivory" />
+            </shape>
+        </clip>
+    </item>
+    <!--播放进度色-->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <!--<solid android:color="#149eff" />-->
+				<gradient
+                    android:angle="45"
+                    android:startColor="#149eff"
+                    android:endColor="#AfFFFF"></gradient>
+				
+            </shape>
+        </clip>
+    </item>
+
+</layer-list>
+

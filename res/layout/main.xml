@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="top|center"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_height="104px"
+		android:layout_width="match_parent"
+		android:background="#373D49"
+		android:gravity="center">
+
+		<LinearLayout
+			android:layout_weight="1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:id="@+id/mainTextView1"
+				android:layout_height="100px"
+				android:text="本地音乐"
+				android:textSize="16sp"
+				android:gravity="left|center"
+				android:textColor="#D0D0D0"
+				android:layout_marginLeft="5dp"/>
+
+		</LinearLayout>
+
+		<Button
+			android:layout_width="match_parent"
+			android:layout_weight="8"
+			android:layout_height="100px"
+			android:onClick="find_music_button"
+			android:textColor="#6EF1FC"
+			android:textSize="13sp"
+			android:id="@+id/mainMenuButton"
+			android:background="@drawable/image_menu3"/>
+
+	</LinearLayout>
+
+	<ListView
+		android:layout_width="1080px"
+		android:layout_height="1920px"
+		android:id="@+id/musicListView"
+		android:layout_weight="1.0"
+		android:background="#38454C"/>
+
+	<LinearLayout
+		android:layout_height="80dp"
+		android:layout_width="match_parent"
+		android:background="#373D49"
+		android:gravity="top"
+		android:orientation="vertical">
+
+		<ProgressBar
+			android:layout_width="match_parent"
+			android:progressDrawable="@drawable/myprogressbar"
+			style="?android:attr/progressBarStyleHorizontal"
+			android:layout_height="3dp"
+			android:id="@+id/mainProgressBar_music"/>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="12dp"
+			android:gravity="right|center">
+
+			<TextView
+				android:layout_height="15dp"
+				android:layout_width="wrap_content"
+				android:textColor="#FFFFFF"
+				android:textSize="12sp"
+				android:id="@+id/mainTextView_music_start"
+				android:gravity="right|center"/>
+
+			<TextView
+				android:layout_height="15dp"
+				android:layout_width="wrap_content"
+				android:textColor="#FFFFFF"
+				android:textSize="12sp"
+				android:id="@+id/mainTextView_music_end"
+				android:gravity="right|center"
+				android:layout_marginRight="5dp"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:gravity="left|center">
+
+			<TextView
+				android:layout_height="50dp"
+				android:layout_width="50dp"
+				android:layout_marginLeft="15dp"
+				android:id="@+id/singer_icon_textview"/>
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:orientation="vertical"
+				android:layout_marginLeft="5dp">
+
+				<TextView
+					android:layout_height="25dp"
+					android:layout_width="200dp"
+					android:gravity="left|center"
+					android:id="@+id/mainTextView_musicName"
+					android:textColor="#FFFFFF"
+					android:textSize="17sp"/>
+
+				<TextView
+					android:layout_height="20dp"
+					android:layout_width="200dp"
+					android:gravity="left|center"
+					android:id="@+id/mainTextView_singerNmae"
+					android:textColor="#D0D0D0"
+					android:ellipsize="marquee"
+					android:singleLine="true"
+					android:marqueeRepeatLimit="marquee_forever"/>
+
+			</LinearLayout>
+
+			<Button
+				android:layout_height="50dp"
+				android:layout_width="50dp"
+				android:onClick="start_stop_button"
+				android:layout_marginLeft="10dp"
+				android:id="@+id/mainButton_start_stop"
+				android:background="@drawable/stoping"/>
+
+			<Button
+				android:layout_height="35dp"
+				android:layout_width="35dp"
+				android:layout_marginLeft="10dp"
+				android:textSize="10sp"
+				android:onClick="button_bofanmoshi"
+				android:id="@+id/mainButton_play_mod"
+				android:background="@drawable/image_touming"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>
+

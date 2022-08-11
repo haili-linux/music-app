@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="35dp"
+	android:descendantFocusability="blocksDescendants"
+	android:orientation="horizontal"
+	android:gravity="center">
+
+	<TextView
+		android:layout_height="35dp"
+		android:layout_width="35dp"
+		android:id="@+id/filelistvImageView"
+		android:background="@drawable/image_gechi_ok2"
+		android:textColor="#FF0505"
+		android:gravity="center"
+		android:textStyle="bold"
+		android:textSize="30sp"/>
+
+	<TextView
+		android:layout_height="30dp"
+		android:layout_width="240dp"
+		android:textSize="12sp"
+		android:gravity="left|center"
+		android:textColor="#FFFFFF"
+		android:id="@+id/filelistvTextView"
+		android:layout_marginLeft="5dp"/>
+
+	<Button
+		android:layout_width="60dp"
+		android:layout_height="35dp"
+		android:text="查看"
+		android:textSize="13sp"
+		android:id="@+id/filelistvButton1"
+		android:textColor="#2FCDCF"/>
+
+</LinearLayout>
+

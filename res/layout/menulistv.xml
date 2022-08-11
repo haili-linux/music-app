@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:descendantFocusability="blocksDescendants"
+	android:gravity="center">
+
+	<TextView
+		android:layout_height="22dp"
+		android:layout_width="22dp"
+		android:id="@+id/menulistvTextView1"
+		android:background="@drawable/menu4"
+		android:layout_marginLeft="4dp"/>
+
+	<TextView
+		android:id="@+id/menulistvTextView2"
+		android:layout_width="125dp"
+		android:layout_height="30dp"
+		android:textColor="#F4F4F4"
+		android:gravity="left|center"
+		android:textSize="16sp"
+		android:text="战斗吧歌姬合集"
+		android:layout_marginLeft="5dp"/>
+
+</LinearLayout>
+

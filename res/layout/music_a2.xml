@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:id="@+id/music_a2_mainLearyout"
+	android:gravity="bottom|center"
+	android:background="#394750">
+
+	<LinearLayout
+		android:layout_height="30dp"
+		android:layout_width="match_parent"
+		android:background="@drawable/image_30touming"/>
+
+	<LinearLayout
+		android:layout_height="735dp"
+		android:layout_width="match_parent"
+		android:gravity="top|center"
+		android:orientation="vertical"
+		android:id="@+id/musica2LinearLayout1">
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:gravity="top|center"
+			android:orientation="vertical"
+			android:background="@drawable/image_30touming">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="35dp"
+				android:textColor="#000000"
+				android:id="@+id/musica2_musicName_textv"
+				android:textSize="24sp"
+				android:gravity="center"/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="20dp"
+				android:textColor="#000000"
+				android:textSize="13sp"
+				android:id="@+id/musica2_SingerName_textv"
+				android:ellipsize="marquee"
+				android:singleLine="true"
+				android:marqueeRepeatLimit="marquee_forever"
+				android:gravity="center"/>
+
+		</LinearLayout>
+
+		<TextView
+			android:layout_height="286dp"
+			android:layout_width="wrap_content"
+			android:gravity="bottom|center"
+			android:textColor="#FFFFFF"
+			android:textSize="18sp"
+			android:id="@+id/musica2_gechiTextv1_full"
+			android:maxWidth="320dp"
+			android:lineSpacingExtra="12dp"
+			android:layout_marginTop="50dp"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:gravity="center"
+			android:textColor="#00FF39"
+			android:textSize="18sp"
+			android:id="@+id/musica2_gechiTextv2_full"
+			android:maxWidth="350dp"
+			android:layout_marginTop="3dp"/>
+
+		<TextView
+			android:layout_height="205dp"
+			android:layout_width="wrap_content"
+			android:gravity="top|center"
+			android:textColor="#FFFFFF"
+			android:textSize="18sp"
+			android:lineSpacingExtra="12dp"
+			android:id="@+id/musica2_gechiTextv3_full"
+			android:maxWidth="320dp"
+			android:layout_marginTop="3dp"/>
+
+		<TextView
+			android:layout_height="40dp"
+			android:layout_width="wrap_content"
+			android:gravity="bottom|center"
+			android:textColor="#FFFFFF"
+			android:textSize="16sp"
+			android:id="@+id/musica2_gechiTextv1"
+			android:maxWidth="300dp"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:gravity="center"
+			android:textColor="#00FF39"
+			android:textSize="18sp"
+			android:id="@+id/musica2_gechiTextv2"
+			android:maxWidth="350dp"/>
+
+		<TextView
+			android:layout_height="40dp"
+			android:layout_width="wrap_content"
+			android:gravity="top|center"
+			android:textColor="#FFFFFF"
+			android:textSize="16sp"
+			android:id="@+id/musica2_gechiTextv3"
+			android:maxWidth="300dp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:layout_gravity="bottom">
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:gravity="right|center"
+			android:orientation="vertical">
+
+			<SeekBar
+				android:thumb="@drawable/seekthumb"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:max="100"
+				android:maxHeight="3dp"
+				android:minHeight="3dp"
+				android:paddingEnd="0dp"
+				android:paddingStart="0dp"
+				android:thumbOffset="0dp"
+				android:progressDrawable="@drawable/seekbarstyle1"
+				android:id="@+id/musicA2_ProgressBar"
+				android:background="@drawable/touming30_50"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="70dp"
+			android:layout_width="match_parent"
+			android:gravity="center"
+			android:background="@drawable/image_30touming">
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_height="match_parent"
+				android:layout_width="119dp"
+				android:gravity="right|center">
+
+				<LinearLayout
+					android:layout_height="25dp"
+					android:layout_width="35dp"
+					android:gravity="left|center">
+
+					<Button
+						android:layout_height="25dp"
+						android:layout_width="25dp"
+						android:background="@drawable/zi"
+						android:onClick="Bg_button"/>
+
+				</LinearLayout>
+
+				<Button
+					android:layout_height="23dp"
+					android:layout_width="25dp"
+					android:background="@drawable/image_danquxunhuan2"
+					android:id="@+id/musicA2_playmod"
+					android:onClick="A2_playmod"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:layout_width="35dp"/>
+
+			</LinearLayout>
+
+			<Button
+				android:layout_height="35dp"
+				android:layout_width="35dp"
+				android:background="@drawable/image_upmusic"
+				android:gravity="center"
+				android:onClick="lastMusic"
+				android:layout_marginRight="15dp"/>
+
+			<Button
+				android:layout_height="60dp"
+				android:layout_width="60dp"
+				android:background="@drawable/starting"
+				android:gravity="center"
+				android:id="@+id/musicA2_start_stop"
+				android:onClick="start_stop_button_A2"/>
+
+			<Button
+				android:layout_height="35dp"
+				android:layout_width="35dp"
+				android:background="@drawable/image_nextm"
+				android:gravity="center"
+				android:onClick="nextMusic"
+				android:layout_marginLeft="15dp"/>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_height="match_parent"
+				android:layout_width="119dp"
+				android:gravity="left">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="23dp"
+					android:gravity="top|right">
+
+					<TextView
+						android:layout_height="15dp"
+						android:layout_width="wrap_content"
+						android:textColor="#000000"
+						android:textSize="12sp"
+						android:id="@+id/musica2_progress_textv"
+						android:gravity="right|center"
+						android:text="2800"/>
+
+					<TextView
+						android:layout_height="15dp"
+						android:layout_width="wrap_content"
+						android:textColor="#000000"
+						android:textSize="12sp"
+						android:id="@+id/musicA2_TextView_music_end"
+						android:gravity="right|center"
+						android:layout_marginRight="5dp"
+						android:text="00:00"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:gravity="center">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:layout_width="35dp"/>
+
+					<Button
+						android:layout_height="25dp"
+						android:layout_width="25dp"
+						android:textSize="20sp"
+						android:textColor="#000000"
+						android:gravity="center"
+						android:onClick="buttonSavevolue"
+						android:background="@drawable/image_volue"/>
+
+					<LinearLayout
+						android:layout_height="25dp"
+						android:layout_width="35dp"
+						android:gravity="right|center">
+
+						<Button
+							android:layout_height="20dp"
+							android:layout_width="20dp"
+							android:background="@drawable/image_gechi_null"
+							android:id="@+id/musicA2_gechi_button"
+							android:onClick="A2_Gechi_button"/>
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>
+

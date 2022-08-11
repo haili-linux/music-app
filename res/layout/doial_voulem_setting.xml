@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_width="350dp"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:gravity="left|center">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="专属音量"
+			android:textSize="20sp"
+			android:layout_marginLeft="10dp"/>
+
+		<Button
+			android:layout_height="40dp"
+			android:layout_width="65dp"
+			android:onClick="button_setting_small"
+			android:text="减小"
+			android:layout_marginLeft="10dp"/>
+
+		<Button
+			android:layout_height="40dp"
+			android:layout_width="65dp"
+			android:text="增大"
+			android:onClick="button_setting_big"
+			android:layout_marginLeft="10dp"/>
+
+		<Button
+			android:layout_height="40dp"
+			android:layout_width="65dp"
+			android:text="保存"
+			android:onClick="button_setting_save_volum"
+			android:layout_marginLeft="10dp"
+			android:textColor="#FF0F00"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:gravity="left|center">
+
+		<TextView
+			android:layout_width="100dp"
+			android:layout_height="40dp"
+			android:textSize="20sp"
+			android:text="移除此歌曲"
+			android:gravity="center"
+			android:layout_marginLeft="10dp"/>
+
+		<Button
+			android:layout_height="40dp"
+			android:layout_width="65dp"
+			android:text="删除"
+			android:layout_marginLeft="140dp"
+			android:textColor="#FF0F00"
+			android:onClick="setting_button_delect"
+			android:id="@+id/doialvoulemsettingButton1"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

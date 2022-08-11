@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="buiding_Day_time">2020年7月20日</string>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">myPlayer</string>
+	<string name="app_name2">myPlayer</string>
+	<string name="app_name3">myPlayer</string>
+	<string name="app_name4">myPlayer</string>
+	<string name="app_name5">myPlayer</string>
+	<string name="app_name6">MPlayer</string>
+	<string name="app_name7">myPlayer</string>
+	<string name="app_name8">myPlayer</string>
+	<string name="app_name9">myPlayer</string>
+	<string name="app_name10">myPlayer</string>
+	<string name="app_name11">myPlayer</string>
+	<string name="app_name12">myPlayer</string>
+	<string name="app_name13">myPlayer</string>
+	<string name="app_name14">myPlayer</string>
+	<string name="app_name15">myPlayer</string>
+	<string name="app_name16">myPlayer</string>
+	<string name="wirter">2323247730</string>
+</resources>
